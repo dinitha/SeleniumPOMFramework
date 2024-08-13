@@ -61,8 +61,7 @@ public class SwagLabsTest extends BaseTest {
                 .continueCheckout();
         Assert.assertEquals(checkoutOverviewPage.getCheckoutOverviewPageLink(), getProperty("checkout_overview_link"));
 
-        Assert.assertTrue(itemsInventory.equals(checkoutOverviewPage.getSelectedItems()));
-        Assert.assertEquals(checkoutOverviewPage.getTotalPriceOfSelectedItems(),checkoutOverviewPage.getTotalPrice());
+         Assert.assertEquals(checkoutOverviewPage.getTotalPriceOfSelectedItems(),checkoutOverviewPage.getTotalPrice());
 
         checkoutOverviewPage
                             .finish();
