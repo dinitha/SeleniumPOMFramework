@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "rotweiler"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "sample"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "black and brown"
+    }
+  ],
+  "status": "sold"
+}

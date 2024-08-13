@@ -1,4 +1,4 @@
-package test.suite;
+package test.suite.web;
 
 import org.framework.base.BaseTest;
 import org.framework.pages.*;
@@ -12,7 +12,7 @@ import java.util.*;
 
 import static org.framework.utils.propertyreader.PropertyReader.getProperty;
 
-public class InventoryTest extends BaseTest {
+public class SwagLabsTest extends BaseTest {
 
     @Test
     public void standardUserCheckoutTest(){
